@@ -12,6 +12,8 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/materialize/bin/materialize.css" />
+    <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -29,82 +31,260 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 	
-  <nav>
-    <div class="nav-wrapper" id="bar">
-      <a href="#" class="brand-logo">NativeGarden</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html"></a></li>
-      </ul>
+
+  
+  
+	<div id="fullpage">
+    <div class="section">
+     <div class="container">
+       <div class="row">
+         <div class="col s12 center">
+           <h1 class="text-center" id="maintitle">Florida Native Garden</h1>
+		   <h5 class="text-center" id="lineone">Discover flowers that are native to the state of Florida</h5>
+		   <h6 class="text-center" id="linetwo">Contribute back to the environment. Plant native. Let your local ecosystem thrive.</h6>
+         </div>
+        </div>
+      </div>
     </div>
-  </nav>	
-  
-  
+	
+    <section class="section second" id="flowerbox">
+		<div class="container">
+        <!--INFO ONE-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/blackeyed.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Black-eyed Susan<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Black-eyed Susan<i class="material-icons right">close</i></span>
+						<p>This native perennial flower can range from yellow to reddish-orange in color and does well in medium drought. 
+						   It is an incredibly common flower found throughout the state of Florida as it is durable and easy to grow.</p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: ANY</li>
+							<li>Soil Moisture: LOW</li>
+							<li>Height: 2-3 ft.</li>
+							<li>Attracts: Birds/Butterflies</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO TWO-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/blanket.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Blanket Flower<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Blanket Flower<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a yellow/red color and does well in high drought. It is popular in floral arrangements.</p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: Sandy or Loam</li>
+							<li>Soil Moisture: LOW</li>
+							<li>Height: 1-2 ft.</li>
+							<li>Attracts: Butterflies</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO THREE-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/violet.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Violet<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Violet<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a range of purple/yellow/white colors and does well in low drought. 
+						   The common blue violet can be found on forest floors in Northern Florida, with the native Bog white violet being found in marshes and ponds.</p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: Sandy or Loam</li>
+							<li>Soil Moisture: MEDIUM</li>
+							<li>Height: .5-1 ft.</li>
+							<li>Attracts: N/A</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO FOUR-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/tickseed.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Tickseed<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Tickseed<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a sunny yellow color, surrounding either a black or yellow center, and does well in high drought. 
+						   Also known by the name "Coreopsis", the Tickseed is Florida's state wildflower.</p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: ANY</li>
+							<li>Soil Moisture: LOW</li>
+							<li>Height: 1-4 ft.</li>
+							<li>Attracts: Birds/Butterflies</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO FIVE-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/blueyed.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Blue-eyed Grass<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Blue-eyed Grass<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a blue color and does well in medium drought. 
+						   It is a member of the iris family and can be found throughout the state of Florida. </p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: ANY</li>
+							<li>Soil Moisture: MEDIUM</li>
+							<li>Height: .5-1.5 ft.</li>
+							<li>Attracts: N/A</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO SIX -->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/coneflower.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Purple Coneflower<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Purple Coneflower<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a light purple color and does well in high drought. 
+						   Non-natives come in an array of colors and behave as annual flowers, so be sure to plant the true Florida native seeds.</p>
+						<ul>
+							<li>Optimal Light: PARTIAL</li>
+							<li>Soil Texture: This rare flower needs soil that drains well. </li>
+							<li>Soil Moisture: LOW</li>
+							<li>Height: 1-3 ft.</li>
+							<li>Attracts: Birds/Butterflies</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO SEVEN-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/rainlily.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Rain Lilly<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Rain Lilly<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a range of white/yellow/pink colors and does well in medium drought. 
+						   Also known as a "Zephyr Lilly", the adaptable Rain Lilly gets its name from blooming after a rain shower.</p>
+						<ul>
+							<li>Optimal Light: FULL</li>
+							<li>Soil Texture: ANY</li>
+							<li>Soil Moisture: LOW</li>
+							<li>Height: 4-8 in.</li>
+							<li>Attracts: N/A</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+			<!--INFO EIGHT-->
+			<div class="row slide">
+             <div class="col m6 is-animated">
+               <div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/blueflagiris.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Blue Flag Iris<i class="material-icons right">more_vert</i></span>
+						<button type="button" class="btn btn-lg">Add to Garden</button>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Blue Flag Iris<i class="material-icons right">close</i></span>
+						<p>This native perennial flower comes in a lavender/purple color and does well in medium drought. 
+						   It thrives in wet conditions and is commonly found along ponds, streams, and marshy areas throughout the state of Florida. </p>
+						<ul>
+							<li>Optimal Light: PARTIAL</li>
+							<li>Soil Texture: ANY</li>
+							<li>Soil Moisture: HIGH</li>
+							<li>Height: 4-7 ft.</li>
+							<li>Attracts: N/A</li>
+						</ul>
+					</div>
+               </div>
+			 </div>
+		    </div><!--end of card-->
+			
+		</div>
+    </section>
+	
+	
+	
+	
+    <section class="section third">
+
+
+		<p id="addPixi"></p>
+				
+		
+    </section>
+
+	</div>
+	
+	
 	
   
   
-  <div class="col s12">
-
-           <!--INFO ONE-->
-           <div class="row">
-             <div class="col s12 m4">
-               <div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="images/test1.gif">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">This is a link</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
-					</div>
-               </div>
-			  </div>
-             <!--INFO TWO-->
-             <div class="col s12 m4">
-               <div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="images/test1.gif">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">This is a link</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
-					</div>
-				</div>
-			  </div>
-			  <!--INFO THREE-->
-			  <div class="col s12 m4">
-               <div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="images/test1.gif">
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-						<p><a href="#">This is a link</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
-					</div>
-				</div>
-			  </div>
-            </div>
-			
-</div>
-
-<div class="col s12">
-	<div class="row">
-		<div class="col s12 m4">
-		<p id="addPixi"></p>
-		
-		</div>
-	</div>
-</div>
+  
   
   
   
@@ -148,6 +328,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/materialize/bin/materialize.js"></script>
     <script src="/bower_components/pixi.js/dist/pixi.min.js"></script>
+    <script src="/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

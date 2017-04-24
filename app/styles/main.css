@@ -33,5 +33,91 @@ body {
 }
 
 #addPixi{
-  background-image: url("images/grass.jpg");
+  background: url("images/grass.jpg");
 }
+
+body {
+  font: normal 2em/1.5em "Helvetica Neue", Arial, sans-serif;
+  color: green;
+}
+
+button.btn {
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.card{
+  margin-left: 50px;	
+}
+
+.second{
+  position: relative;	
+}
+
+button{
+  font-size: 16px;	
+}
+
+p{
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+li{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+}
+
+h5{
+  margin-top: 40px;
+}
+
+#flowerbox{
+  background-color: #ffffdd;
+}
+
+#maintitle {
+  -vendor-animation-duration: 6s;
+  -vendor-animation-delay: 3s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
