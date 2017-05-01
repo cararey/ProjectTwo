@@ -10,6 +10,7 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/materialize/bin/materialize.css" />
     <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
@@ -19,7 +20,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -35,20 +36,20 @@
   
   
 	<div id="fullpage">
-    <div class="section">
+    <div class="section" id="mainpage">
      <div class="container">
        <div class="row">
          <div class="col s12 center">
            <h1 class="text-center" id="maintitle">Florida Native Garden</h1>
-		   <h5 class="text-center" id="lineone">Discover flowers that are native to the state of Florida</h5>
-		   <h6 class="text-center" id="linetwo">Contribute back to the environment. Plant native. Let your local ecosystem thrive.</h6>
+		   <h4 class="text-center" id="lineone">Discover flowers that are native to the state of Florida</h4>
          </div>
         </div>
       </div>
     </div>
 	
     <section class="section second" id="flowerbox">
-		<div class="container">
+		<div class="container" id="box">
+	
         <!--INFO ONE-->
 			<div class="row slide">
              <div class="col m6 is-animated">
@@ -58,7 +59,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Black-eyed Susan<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowerone()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Black-eyed Susan<i class="material-icons right">close</i></span>
@@ -85,7 +86,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Blanket Flower<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowertwo()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Blanket Flower<i class="material-icons right">close</i></span>
@@ -111,7 +112,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Violet<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowerthree()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Violet<i class="material-icons right">close</i></span>
@@ -138,7 +139,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Tickseed<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowerfour()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Tickseed<i class="material-icons right">close</i></span>
@@ -165,7 +166,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Blue-eyed Grass<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowerfive()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Blue-eyed Grass<i class="material-icons right">close</i></span>
@@ -192,7 +193,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Purple Coneflower<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowersix()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Purple Coneflower<i class="material-icons right">close</i></span>
@@ -219,7 +220,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Rain Lilly<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowerseven()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Rain Lilly<i class="material-icons right">close</i></span>
@@ -246,7 +247,7 @@
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Blue Flag Iris<i class="material-icons right">more_vert</i></span>
-						<button type="button" class="btn btn-lg">Add to Garden</button>
+						<button type="button" class="btn btn-lg" onclick="flowereight()">Add to Garden</button>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">Blue Flag Iris<i class="material-icons right">close</i></span>
@@ -263,24 +264,171 @@
                </div>
 			 </div>
 		    </div><!--end of card-->
-			
 		</div>
     </section>
 	
 	
 	
 	
-    <section class="section third">
-
-
-		<p id="addPixi"></p>
-				
+    <section class="section third" id="final">
+	<button type="button" class="btn btn-lg" onclick="restart()" id="destroy">Start Over</button>
+	<img id="fly" src="images/butter1.gif" width="200" height="175" style="position:absolute;top:335px;left:0px;">
+	<h5 class="text-center" id="choose">Move the butterfly to enjoy the garden.</h5>
+		<canvas height="1000" width="auto" id="garden"> 
 		
+			<script>
+			
+				function flowerone(){
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/blackeyed.png";
+						
+					ctx.drawImage(img, 200, 200, 200, 200);
+				}
+	
+				function flowertwo() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/blanket.png";
+
+					ctx.drawImage(img, 400, 200, 200, 200);
+					}
+					
+				function flowerthree() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/violet.png";
+
+					ctx.drawImage(img, 600, 200, 200, 200);
+					}
+					
+				function flowerfour() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/tickseed.png";
+
+					ctx.drawImage(img, 800, 200, 200, 200);
+					}
+					
+				function flowerfive() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/blueyed.png";
+
+					ctx.drawImage(img, 200, 400, 200, 200);
+					}
+					
+				function flowersix() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/coneflower.png";
+
+					ctx.drawImage(img, 400, 400, 200, 200);
+					}
+					
+				function flowerseven() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/rainlily.png";
+
+					ctx.drawImage(img, 600, 400, 200, 200);
+					}
+					
+				function flowereight() {
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					var img = new Image();
+					img.addEventListener("load", function() {
+						// execute drawImage statements here
+						}, false);
+						img.src = "images/blueflagiris.png";
+
+					ctx.drawImage(img, 800, 400, 200, 200);
+					}
+					
+				function restart(){
+					var c = document.getElementById("garden");
+					var ctx = c.getContext("2d");
+					ctx.clearRect(0, 0, canvas.width, canvas.height);
+				}
+			
+	
+			window.onkeydown = function (e) {
+				if (!e) {
+				e = window.event;
+			}
+
+				var flyRight = document.getElementById('fly');
+				var top = parseInt (flyRight.style.top, 10);
+				var left = parseInt (flyRight.style.left, 10);
+	
+
+				var code = e.keyCode;
+
+				if ( code == 37 ) {
+					if ( left > 0 ) {
+					flyRight.style.left = left - 10 + 'px';
+					}
+				} else if ( code == 39 )
+				if ( left+flyRight.width+10 < window.innerWidth ) {
+				flyRight.style.left = left + 10 + 'px';
+				} else if ( code == 40 )
+				if ( left+flyRight.width+10 < window.innerWidth ) {
+				flyRight.style.left = top - 10 + 'px';
+				} else if ( code == 38 )
+				if ( left+flyRight.width+10 < window.innerWidth ) {
+				flyRight.style.left = top + 10 + 'px';
+          }
+        }	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+			
+			</script>
+		
+		</canvas>
+					
     </section>
 
 	</div>
+
 	
-	
+		
 	
   
   

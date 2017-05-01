@@ -32,13 +32,13 @@ body {
   background-color: green;
 }
 
-#addPixi{
-  background: url("images/grass.jpg");
+#garden{
+
 }
 
 body {
   font: normal 2em/1.5em "Helvetica Neue", Arial, sans-serif;
-  color: green;
+  color: white;
 }
 
 button.btn {
@@ -47,12 +47,10 @@ button.btn {
 }
 
 .card{
-  margin-left: 50px;	
+  margin: 10px;
 }
 
-.second{
-  position: relative;	
-}
+
 
 button{
   font-size: 16px;	
@@ -63,32 +61,76 @@ p{
   line-height: 18px;
   text-align: left;
   margin-top: 10px;
+  color: black;
 }
 
 li{
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 2px;
   text-align: left;
+  color: green;
+  padding-left: 85px;
+  padding-top: 50px;
 }
 
-h5{
+h4{
   margin-top: 40px;
 }
 
 #flowerbox{
-  background-color: #ffffdd;
+  background-color: #ffbdbd;
 }
+
+#mainpage{
+  background-color: #a8e6cf;
+}
+
+#final, #garden{
+  background: url("http://images.all-free-download.com/images/graphicthumb/green_grass_02_hd_picture_166104.jpg");
+}
+
 
 #maintitle {
   -vendor-animation-duration: 6s;
-  -vendor-animation-delay: 3s;
-  -vendor-animation-iteration-count: infinite;
+  -vendor-animation-delay: 2s;
+}
+
+#lineone {
+  -vendor-animation-duration: 6s;
+  -vendor-animation-delay: 5s;
 }
 
 
 
+#destroy{
+  margin-top: 5px;
+  margin-left: 0px;
+  padding-left: 100px;
+  font-weight: bold;
+  
+}
 
+.btn{
+  padding-left: 10px;	
+  padding-right: 10px;
+  margin-left: 75px;
+  background-color:
+}
 
+#box{
+  margin-left: 400px;
+  margin-top: 20px;  
+}
+
+.text-center{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#choose{
+  margin: 0px;	
+  text-align: center;
+  font-weight: bold;
+}
 
 
 

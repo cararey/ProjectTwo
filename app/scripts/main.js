@@ -1,8 +1,22 @@
 console.log('\'Allo \'Allo!');
 
+/*
 $(document).ready(function() {
     var renderer = PIXI.autoDetectRenderer(window.innerWidth, window.innerHeight);
     $('#addPixi').append(renderer.view);
+	
+	 var stage = new PIXI.Container();
+	 
+	 var grass = PIXI.Sprite.fromImage('grass.jpeg');
+	
+	 grass.anchor.x = 0.5;
+	grass.anchor.y = 0.5;
+	
+	grass.position.x = 200;
+	grass.position.y = 200;
+	
+	stage.addChild(grass);
+	 
 
 	
 	window.onresize = resize;
@@ -14,10 +28,14 @@ $(document).ready(function() {
 	renderer.view.style.width = w + 'px';
 	renderer.view.style.height = h + 'px';
 	}
+	function render(){
+	renderer.render(stage);
+	}
 
+	var text = new PIXI.Text("Welcome", {font:"50px Arial", dropShadow: true, fill:"white"});
 	
 	
-});
+}); */
 
 
 /* for fullpage.js */
@@ -102,22 +120,15 @@ $(document).ready(function() {
   
 })(jQuery);
 
+/*garden animation*/
 
+var canvas = document.getElementById('garden');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 
 $('#maintitle').addClass('animated fadeIn');
-
 $('#lineone').addClass('animated fadeInLeft');
-$('#linetwo').addClass('animated fadeInRight');
-
-
-
-
-
-
-
-
-
 
 
 
