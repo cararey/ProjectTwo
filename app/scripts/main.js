@@ -129,6 +129,7 @@ canvas.height = window.innerHeight;
 
 $('#maintitle').addClass('animated fadeIn');
 $('#lineone').addClass('animated fadeInLeft');
+$('#linetwo').addClass('animated flash');
 
 
 

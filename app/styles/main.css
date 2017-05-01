@@ -100,7 +100,11 @@ h4{
   -vendor-animation-delay: 5s;
 }
 
-
+#linetwo {
+  -vendor-animation-duration: 6s;
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: infinite;
+}
 
 #destroy{
   margin-top: 5px;
